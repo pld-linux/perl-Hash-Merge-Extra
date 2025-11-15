@@ -7,7 +7,7 @@
 Summary:	Hash::Merge::Extra - Collection of extra behaviors for Hash::Merge
 Name:		perl-Hash-Merge-Extra
 Version:	0.06
-Release:	2
+Release:	3
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Hash/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -47,5 +47,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
+%dir %{perl_vendorlib}/Hash/Merge
 %{perl_vendorlib}/Hash/Merge/Extra.pm
 %{_mandir}/man3/Hash::Merge::Extra.3pm*
